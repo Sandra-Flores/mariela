@@ -47,7 +47,7 @@ int main()
     fout << setw(1) << "Team Members: Daniel Calderon,Miguel Fletes,Angel Gonzalez,Sandra Flores" << setw(5) << endl;
     fout << setw(30) << "two_a.txt" << setw(30) << "two_b.txt" << setw(30) << "%difference" << setw(10) << endl;
     fout << setw(1) << "Mean" << setw(27) << mean(finA) << setw(30) << mean(finB) << setw(25) << differenceMean << setw(10) << endl;
-    fout << setw(1) << "Standard Deviation" << setw(12) << stdDev(finA) << setw(30) << stdDev(finB) << setw(26) << differenceStd << endl;
+    fout << setw(1) << "Standard Deviation" << setw(11) << stdDev(finA) << setw(29) << stdDev(finB) << setw(28) << differenceStd << endl;
     fout << setw(1) << "Variance" << setw(21) << var(finA) << setw(30) << var(finB) << setw(27) <<differenceVar <<  setw(20) << endl;
     fout << setw(1) << "Average Power" << setw(16) << avgPower(finA) << setw(29) << avgPower(finB) <<setw(27) << differencePower << endl;
     fout << setw(1) << "Average Magnitude" << setw(12.5) <<avgMagnitude(finA) <<setw(30) << avgMagnitude(finB) <<setw(27) << differenceMagnitude << endl;
@@ -80,7 +80,7 @@ double stdDev(ifstream& fin)
     fin.clear();
     fin.seekg(0);  
     
-    return sqrt(variance/sizeAry); //all stdDev does is return the square root of the variance divided by the number of values
+    return sqrt(variance); //all stdDev does is return the square root of the variance divided by the number of values
 
 }
 //************************************************

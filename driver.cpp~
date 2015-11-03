@@ -9,7 +9,7 @@
 B.  The file that match most closely are standard deviation
 C.  The number of zero crossings are the one that are most different
 D.  Another measurement that i would recomend is get the wavelength
-E.  The recordings from the two data files are not the same person. This is due to the fact that the percentage formt he zero crossings and magnitude are too great.
+E.  The recordings from the two data files are not from the same person. This is due to the fact that the percentage difference  from  the zero crossings and magnitude are too great.
 */
 
 
@@ -47,7 +47,7 @@ int main()
     fout << setw(1) << "Team Members: Daniel Calderon,Miguel Fletes,Angel Gonzalez,Sandra Flores" << setw(5) << endl;
     fout << setw(30) << "two_a.txt" << setw(30) << "two_b.txt" << setw(30) << "%difference" << setw(10) << endl;
     fout << setw(1) << "Mean" << setw(27) << mean(finA) << setw(30) << mean(finB) << setw(25) << differenceMean << setw(10) << endl;
-    fout << setw(1) << "Standard Deviation" << setw(12) << stdDev(finA) << setw(30) << stdDev(finB) << setw(26) << differenceStd << endl;
+    fout << setw(1) << "Standard Deviation" << setw(11) << stdDev(finA) << setw(29) << stdDev(finB) << setw(29) << differenceStd << endl;
     fout << setw(1) << "Variance" << setw(21) << var(finA) << setw(30) << var(finB) << setw(27) <<differenceVar <<  setw(20) << endl;
     fout << setw(1) << "Average Power" << setw(16) << avgPower(finA) << setw(29) << avgPower(finB) <<setw(27) << differencePower << endl;
     fout << setw(1) << "Average Magnitude" << setw(12.5) <<avgMagnitude(finA) <<setw(30) << avgMagnitude(finB) <<setw(27) << differenceMagnitude << endl;
@@ -80,7 +80,7 @@ double stdDev(ifstream& fin)
     fin.clear();
     fin.seekg(0);  
     
-    return sqrt(variance/sizeAry); //all stdDev does is return the square root of the variance divided by the number of values
+    return sqrt(variance); //all stdDev does is return the square root of the variance divided by the number of values
 
 }
 //************************************************
