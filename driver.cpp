@@ -9,7 +9,7 @@
 B.  The file that match most closely are standard deviation
 C.  The number of zero crossings are the one that are most different
 D.  Another measurement that i would recomend is get the wavelength
-E.  The recordings from the two data files are not the same person. This is due to the fact that the percentage formt he zero crossings and magnitude are too great.
+E.  The recordings from the two data files are not from the same person. This is due to the fact that the percentage difference  from  the zero crossings and magnitude are too great.
 */
 
 

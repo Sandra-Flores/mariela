@@ -4,14 +4,12 @@
 //  Name: Miguel Fletes
 //  Nov 1 ,2015
 //  Mariela strength code
-/*b. Which values for each data file match most closely? 
-c. Which values for each data file are most different?
-d. Are there other statistical measures that you could suggest?
-e. Can you determine if these sound recordings are from the same person? Explain.*/
+
 /* 
-B. The file that match most closely are standard deviation
-C. The number of zero crossings
-D.  
+B.  The file that match most closely are standard deviation
+C.  The number of zero crossings are the one that are most different
+D.  Another measurement that i would recomend is get the wavelength
+E.  The recordings from the two data files are not the same person. This is due to the fact that the percentage formt he zero crossings and magnitude are too great.
 */
 
 
